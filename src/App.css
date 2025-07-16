@@ -32,3 +32,39 @@
   height: auto;
   object-fit: contain;
 }
+
+
+
+/* uuder line */
+.underline {
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, #b58320 0%, #ffff78 52%, #f3ab0b 100%);
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+}
+
+.underline .move {
+  position: absolute;
+  top: 0;
+  left: -25px;
+  width: 5px;
+  height: 100%;
+  border-radius: 3px;
+  background: black;
+  animation: moving 1s linear infinite;
+}
+
+.underline .delay-0 {
+  animation-delay: 0s;
+}
+
+.underline .delay-1 {
+  animation-delay: 0.1s; 
+}
+
+@keyframes moving {
+  0%   { left: -25px; }
+  100% { left: 100%; }
+}
