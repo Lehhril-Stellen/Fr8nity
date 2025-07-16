@@ -22,17 +22,20 @@ const Home = () => {
 
     return (
         <>
-            <div className="container-fluid blackbg">
+
+
+<section>
+     <div className="container blackbg">
                 <div className="row ">
 
-                    <div className='col d-flex justify-content-center align-items-center flex-column'>
+                    <div className='col-12 col-md-6  d-flex justify-content-center align-items-center flex-column'>
                         <div className="   ">
                             <h1 className='fw-bolder size'>When One Thrives,<br /> We All Rise</h1>
                             <p className='fs-2'>Logistics Network Reimagined</p>
-                            <button type="button" class="btn btnbg fe-semibold">Primary</button>
+                            <button type="button" class="btn btnbg fe-semibold">Become a Member</button>
                         </div></div>
 
-                    <div className="col">
+                    <div className="col col-12 col-md-6">
                         <video
                             src={headerlogo}
                             autoPlay
@@ -45,6 +48,11 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+
+</section>
+
+       
 
 
 
@@ -83,11 +91,11 @@ const Home = () => {
 
             </div>
 
-            <div className="container-fluid  py-5 px-2">
-                <h3 className='text-center fw-bold fs-2'>Your Benefits</h3>
+            <div className="container  py-5 px-2">
+                <h3 className='text-center fw-bold fs-2 py-5'>Your Benefits</h3>
                 <div className="row mx-auto align-items-stretch">
-                    <div className="col-12 col-sm-6 col-lg-3">
-                        <div className="border m-2 h-100 d-flex flex-column  p-2">
+                    <div className="col-12 col-sm-6 col-lg-3 mb-3">
+                        <div className="border m-2 h-100 d-flex flex-column   p-2">
                             <img src={Benefits1} alt="Benefit 1" className="img-fluid mb-3" />
                             <div className="px-4 d-flex flex-column h-100">
                                 <h6 className="textcolor fw-semibold fs-4">Business Opportunity Matching</h6>
@@ -96,7 +104,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="col-12 col-sm-6 col-lg-3">
+                    <div className="col-12 col-sm-6 col-lg-3  mb-3">
                         <div className="border m-2 h-100 d-flex flex-column p-2">
                             <img src={Benefits2} alt="Benefit 2" className="img-fluid mb-3" />
                             <div className="px-4">
@@ -106,7 +114,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="col-12 col-sm-6 col-lg-3">
+                    <div className="col-12 col-sm-6 col-lg-3  mb-3">
                         <div className="border m-2 h-100 d-flex flex-column">
                             <img src={Benefits3} alt="Benefit 3" className="img-fluid mb-3 p-2" />
                             <div className="px-4">
@@ -116,7 +124,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="col-12 col-sm-6 col-lg-3 ">
+                    <div className="col-12 col-sm-6 col-lg-3  mb-3 ">
                         <div className="border m-2 h-100 d-flex flex-column p-2">
                             <img src={Benefits4} alt="Benefit 4" className="img-fluid mb-3" />
                             <div className="px-4">
@@ -129,11 +137,11 @@ const Home = () => {
             </div>
 
 
-            <div className="container-fluid blacklight py-5 px-2">
-                <h3 className='text-center fw-bold fs-2'>Upcoming Events</h3>
+            <div className="container blacklight py-5 px-2">
+                <h3 className='text-center fw-bold fs-2 '>Upcoming Events</h3>
 
-                <div className="row mx-auto align-items-stretch blacklight">
-                    <div className="col-12 col-sm-4 col-lg-4 blacklight ">
+                <div className="row mx-auto align-items-stretch ">
+                    <div className="col-12 col-sm-4 col-lg-4  ">
                         <div className="border m-2 h-100 blackdark d-flex flex-column  p-2">
                             <img src={eventimg1} alt="Benefit 1" className="img-fluid mb-3" />
                             <div className="px-4 d-flex flex-column h-100">
@@ -148,7 +156,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="col-12 col-sm-4 col-lg-4 blacklight ">
+                    <div className="col-12 col-sm-4 col-lg-4  ">
                         <div className="border blackdark m-2 h-100 d-flex flex-column p-2">
                             <img src={eventimg2} alt="Benefit 2" className="img-fluid mb-3" />
                             <div className="px-4">
@@ -161,7 +169,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="col-12 col-sm-4 col-lg-4 blacklight ">
+                    <div className="col-12 col-sm-4 col-lg-4  ">
                         <div className="border blackdark m-2 h-100 d-flex flex-column">
                             <img src={eventimg3} alt="Benefit 3" className="img-fluid mb-3 p-2" />
                             <div className="px-4">
@@ -186,8 +194,8 @@ const Home = () => {
             </div>
 
 
-            <div className="container-fluid blacklight py-5 px-2">
-                <h3 className='text-center fw-bold fs-2'>Upcoming Events</h3>
+            <div className="container blacklight py-5 px-2">
+                <h3 className='text-center fw-bold fs-2'>Founders</h3>
 
                 <div className="row mx-auto align-items-stretch blacklight">
                     <div className="col-12 col-sm-4 col-lg-6 blacklight ">

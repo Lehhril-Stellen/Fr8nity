@@ -1,13 +1,14 @@
-/* slider css */
 .logos {
   overflow: hidden;
   width: 100%;
 }
+
 .logo_items {
   display: flex;
   gap: 20px;
   animation: slide 30s linear infinite;
 }
+
 @keyframes slide {
   0% {
     transform: translateX(0);
@@ -16,13 +17,18 @@
     transform: translateX(-50%);
   }
 }
-.logo_slide{
-    border-radius: 100px;
-    width: 300px;
-}
-.logo_items .logo_slide img {
-    width: auto;
-    height: 100px;
-    
 
+.logo_slide {
+  border-radius: 100px;
+  width: 150px; 
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_slide img {
+  width: 50px;
+  height: auto;
+  object-fit: contain;
 }
