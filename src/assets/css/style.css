@@ -117,13 +117,14 @@ Link {
 }
 
 .border {
-  border: 1px solid;
+  border: 1px solid !important;
   border-image-source: linear-gradient(
     180deg,
     rgba(243, 171, 11, 0.4) 0%,
     rgba(232, 232, 101, 0.4) 44.23%,
     rgba(181, 131, 32, 0.4) 100%
-  );
+  ) !important;
+  border-image-slice: 1 !important;
 }
 .blackbg {
   background-color: #000000;
