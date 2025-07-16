@@ -9,6 +9,7 @@ import eventimg1 from "../assets/images/image 8.png"
 import eventimg2 from "../assets/images/eventimg2.png"
 import eventimg3 from "../assets/images/eventimg3.png"
 import arrow from "../assets/images/arrow.png"
+
 const Home = () => {
 
     const benefits = [
@@ -21,17 +22,17 @@ const Home = () => {
 
     return (
         <>
-            <div className="container-fluid blackbg">
-                <div className="row ">
+            <div className="container blackbg">
+                <div className="row">
 
-                    <div className='col d-flex justify-content-center align-items-center flex-column'>
+                    <div className='col-12 col-md-6 d-flex align-items-center'>
                         <div className="   ">
                             <h1 className='fw-bolder size'>When One Thrives,<br /> We All Rise</h1>
                             <p className='fs-2'>Logistics Network Reimagined</p>
-                            <button type="button" class="btn btnbg fe-semibold">Primary</button>
+                            <button type="button" class="btn btnbg fe-semibold">Become a Member</button>
                         </div></div>
 
-                    <div className="col">
+                    <div className="col-12 col-md-6">
                         <video
                             src={headerlogo}
                             autoPlay
@@ -128,7 +129,7 @@ const Home = () => {
 </div>
 
 
-      <div className="container-fluid blacklight py-5 px-2">
+      <div className="container-fluid blacklight py-5">
         <h3 className='text-center fw-bold fs-2'>Upcoming Events</h3>
 
           <div className="row mx-auto align-items-stretch blacklight">
@@ -185,7 +186,7 @@ const Home = () => {
 </div>
 
 
-      <div className="container-fluid blacklight py-5 px-2">
+      <div className="container-fluid blacklight py-5">
         <h3 className='text-center fw-bold fs-2'>Upcoming Events</h3>
 
           <div className="row mx-auto align-items-stretch blacklight">
