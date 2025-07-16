@@ -13,6 +13,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Spotlight from './pages/Spotlight';
 import Contact from './pages/Contact';
+import Slider from './components/Slider';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/spotlight" element={<Spotlight />} />
        <Route path="/contact" element={<Contact />} />  
+       <Route path="/Slider" element={<Slider />} />
       </Routes>
       <Footer />
     </Router>

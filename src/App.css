@@ -16,3 +16,13 @@
     transform: translateX(-50%);
   }
 }
+.logo_slide{
+    border-radius: 100px;
+    width: 300px;
+}
+.logo_items .logo_slide img {
+    width: auto;
+    height: 100px;
+    
+
+}

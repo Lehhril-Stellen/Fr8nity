@@ -26,7 +26,7 @@ const Slider = () => {
         while (contentWidth < containerWidth * 2) {
             newImageArray = [...newImageArray, ...originalImages];
             logoItems.innerHTML = newImageArray
-                .map((src, index) => `<img src="${src}" alt="logo-${index}" />`)
+                .map((src, index) => `<div class="logo_slide border  p-3"><img src="${src}" alt="logo-${index}" /></div>`)
                 .join('');
             contentWidth = logoItems.scrollWidth;
         }
@@ -59,11 +59,12 @@ const Slider = () => {
   </div>
   <div className="logos overflow-hidden">
     <div className="logo_items d-flex " ref={logoContainerRef}>
-      {duplicatedImages.map((src, idx) => (
-        <div className="px-3 border" key={idx}>
-          <img src={src} alt={`logo-${idx}`} className="img-fluid" />
+     <div className='logoslider' >  {duplicatedImages.map((src, idx) => (
+        <div className="px-3 " key={idx} style={{background: ""}}>
+         <img src={src} alt={`logo-${idx}`} className="img-fluid" />
         </div>
       ))}
+      </div>
     </div>
   </div>
 </div>
