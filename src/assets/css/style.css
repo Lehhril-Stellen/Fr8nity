@@ -41,11 +41,15 @@ Link {
 .blacklight{
     background: rgba(26, 26, 26, 0.6);
 }
+.blackdark{
+    background-color: #000000;
+
+}
 
 .btnbg {
     background: linear-gradient(90deg, #B58320 0%, #FFFF78 52%, #F3AB0B 100%);
     border-radius: 100px;
-    width: 150px;
+    width: auto;
     font-weight: 600;
     color: rgba(0, 0, 0, 1);
     
@@ -62,7 +66,24 @@ h6 {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-    font-family: 'Blauer Nue';
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.textcolor {
+  background: linear-gradient(90deg, #B4B5B8 0%, #E3E3E3 49.52%, #A8A9AD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; 
+}
+
+.yellowcolor{
+
+      background: linear-gradient(270deg, #B58320 0%, #FFFF78 54.81%, #F3AB0B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  /* font-family: "Bebas Neue", sans-serif; */
 }
 
 .size {
@@ -89,6 +110,18 @@ Link {
     width: 30px;
     height: 30px;
 
+}
+.hover-reveal {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  visibility: hidden;
+}
+
+.card-hover:hover .hover-reveal {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
 }
 
 

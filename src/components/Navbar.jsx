@@ -28,7 +28,7 @@ const Navbar = () => {
 
                 {/* Collapsible Content */}
                 <div className="collapse navbar-collapse" id="mainNavbar d-flex justify-content-center align-items-center">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-5">
+                    <ul className="navbar-nav mx-auto mb-2 mb-lg-0 gap-5">
 
                         <li className="nav-item d-flex justify-content-center align-items-center">
                             <Link className="nav-link active" to="/">Home</Link>
@@ -85,6 +85,12 @@ const Navbar = () => {
 
                         <li className="nav-item d-flex justify-content-center align-items-center">
                             <Link className="nav-link" to="/contact">Contact Us</Link>
+                        </li>
+                           <li className="nav-item d-flex justify-content-center align-items-center">
+                            <Link className="nav-link" to="/contact"></Link>
+                        </li>
+                           <li className="nav-item d-flex justify-content-center align-items-center">
+                            <Link className="nav-link" to="/contact"></Link>
                         </li>
 
                     </ul>
