@@ -9,6 +9,7 @@ import eventimg1 from "../assets/images/image 8.png"
 import eventimg2 from "../assets/images/eventimg2.png"
 import eventimg3 from "../assets/images/eventimg3.png"
 import arrow from "../assets/images/arrow.png"
+import Slider from '../components/Slider';
 const Home = () => {
 
     const benefits = [
@@ -82,153 +83,153 @@ const Home = () => {
 
             </div>
 
-       <div className="container-fluid  py-5 px-2">
-        <h3 className='text-center fw-bold fs-2'>Your Benefits</h3>
-  <div className="row mx-auto align-items-stretch">
-<div className="col-12 col-sm-6 col-lg-3">
-  <div className="border m-2 h-100 d-flex flex-column  p-2">
-    <img src={Benefits1} alt="Benefit 1" className="img-fluid mb-3" />
-    <div className="px-4 d-flex flex-column h-100">
-      <h6 className="textcolor fw-semibold fs-4">Business Opportunity Matching</h6>
-      <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-    </div>
-  </div>
-</div>
+            <div className="container-fluid  py-5 px-2">
+                <div className="pb-5">     <h3 className='text-center fw-bold fs-2'>Your Benefits</h3></div>
 
-    <div className="col-12 col-sm-6 col-lg-3">
-      <div className="border m-2 h-100 d-flex flex-column p-2">
-        <img src={Benefits2} alt="Benefit 2" className="img-fluid mb-3" />
-        <div className="px-4">
-          <h6 className="textcolor fw-semibold fs-4">Cooperation Risk Protection</h6>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-        </div>
-      </div>
-    </div>
+                <div className="row mx-auto align-items-stretch">
+                    <div className="col-12 col-sm-6 col-lg-3">
+                        <div className="border m-2 h-100 d-flex flex-column  p-2">
+                            <img src={Benefits1} alt="Benefit 1" className="img-fluid mb-3" />
+                            <div className="px-4 d-flex flex-column h-100">
+                                <h6 className="textcolor fw-semibold fs-4">Business Opportunity Matching</h6>
+                                <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
 
-    <div className="col-12 col-sm-6 col-lg-3">
-      <div className="border m-2 h-100 d-flex flex-column">
-        <img src={Benefits3} alt="Benefit 3" className="img-fluid mb-3 p-2" />
-        <div className="px-4">
-          <h6 className="textcolor fw-semibold fs-4">Marketing and Promotion Services</h6>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-        </div>
-      </div>
-    </div>
+                    <div className="col-12 col-sm-6 col-lg-3">
+                        <div className="border m-2 h-100 d-flex flex-column p-2">
+                            <img src={Benefits2} alt="Benefit 2" className="img-fluid mb-3" />
+                            <div className="px-4">
+                                <h6 className="textcolor fw-semibold fs-4">Cooperation Risk Protection</h6>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
 
-    <div className="col-12 col-sm-6 col-lg-3 ">
-      <div className="border m-2 h-100 d-flex flex-column p-2">
-        <img src={Benefits4} alt="Benefit 4" className="img-fluid mb-3" />
-        <div className="px-4">
-          <h6 className="textcolor fw-semibold fs-4">Reduce Costs and Boost efficiency</h6>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+                    <div className="col-12 col-sm-6 col-lg-3">
+                        <div className="border m-2 h-100 d-flex flex-column">
+                            <img src={Benefits3} alt="Benefit 3" className="img-fluid mb-3 p-2" />
+                            <div className="px-4">
+                                <h6 className="textcolor fw-semibold fs-4">Marketing and Promotion Services</h6>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
 
-
-      <div className="container-fluid blacklight py-5 px-2">
-        <h3 className='text-center fw-bold fs-2'>Upcoming Events</h3>
-
-          <div className="row mx-auto align-items-stretch blacklight">
-<div className="col-12 col-sm-4 col-lg-4 blacklight ">
-  <div className="border m-2 h-100 blackdark d-flex flex-column  p-2">
-    <img src={eventimg1} alt="Benefit 1" className="img-fluid mb-3" />
-    <div className="px-4 d-flex flex-column h-100">
-      <h6 className="textcolor fw-semibold fs-4">Business Opportunity Matching</h6>
-   <div className="d-flex justify-content-between fs-6">
-  <span className="yellowcolor">View More <img src={arrow} alt="" srcset="" /></span>
-  <span>July 22’ 2025</span>
-</div>
-
-   
-    </div>
-  </div>
-</div>
-
-    <div className="col-12 col-sm-4 col-lg-4 blacklight ">
-      <div className="border blackdark m-2 h-100 d-flex flex-column p-2">
-        <img src={eventimg2} alt="Benefit 2" className="img-fluid mb-3" />
-        <div className="px-4">
-          <h6 className="textcolor fw-semibold fs-4">Cooperation Risk Protection</h6>
-           <div className="d-flex justify-content-between fs-6">
-  <span className="yellowcolor">View More <img src={arrow} alt="" srcset="" /></span>
-  <span>July 22’ 2025</span>
-</div>
-        </div>
-      </div>
-    </div>
-
-    <div className="col-12 col-sm-4 col-lg-4 blacklight ">
-      <div className="border blackdark m-2 h-100 d-flex flex-column">
-        <img src={eventimg3} alt="Benefit 3" className="img-fluid mb-3 p-2" />
-        <div className="px-4">
-          <h6 className="textcolor fw-semibold fs-4">Marketing and Promotion Services</h6>
-       <div className="d-flex justify-content-between fs-6">
-  <span className="yellowcolor">View More <img src={arrow} alt="" srcset="" /></span>
-  <span>July 22’ 2025</span>
-</div>
-        </div>
-      </div>
-    </div>
-
-    
-  </div>
- <div className="row justify-content-center align-items-center pt-5">
-  <button type="button" className="btn btnbg fw-semibold">
-    View All Upcoming Events
-  </button>
-</div>
+                    <div className="col-12 col-sm-6 col-lg-3 ">
+                        <div className="border m-2 h-100 d-flex flex-column p-2">
+                            <img src={Benefits4} alt="Benefit 4" className="img-fluid mb-3" />
+                            <div className="px-4">
+                                <h6 className="textcolor fw-semibold fs-4">Reduce Costs and Boost efficiency</h6>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
-</div>
+            <div className="container-fluid blacklight py-5 px-2">
+                <div className="pb-5"> <h3 className='text-center fw-bold fs-2'>Upcoming Events</h3></div>
 
 
-      <div className="container-fluid blacklight py-5 px-2">
-        <h3 className='text-center fw-bold fs-2'>Upcoming Events</h3>
-
-          <div className="row mx-auto align-items-stretch blacklight">
-<div className="col-12 col-sm-4 col-lg-6 blacklight ">
-  <div className="border m-2 h-100 blackdark d-flex flex-column  p-2">
-    <img src={eventimg1} alt="Benefit 1" className="img-fluid mb-3" />
-    <div className="px-4 d-flex flex-column h-100">
-      <h6 className="textcolor fw-semibold fs-4">Business Opportunity Matching</h6>
-   <div className="d-flex justify-content-between fs-6">
-  <span className="yellowcolor">View More <img src={arrow} alt="" srcset="" /></span>
-  <span>July 22’ 2025</span>
-</div>
-
-   
-    </div>
-  </div>
-</div>
-
-    <div className="col-12 col-sm-4 col-lg-6 blacklight ">
-      <div className="border blackdark m-2 h-100 d-flex flex-column p-2">
-        <img src={eventimg2} alt="Benefit 2" className="img-fluid mb-3" />
-        <div className="px-4">
-          <h6 className="textcolor fw-semibold fs-4">Cooperation Risk Protection</h6>
-           <div className="d-flex justify-content-between fs-6">
-  <span className="yellowcolor">View More <img src={arrow} alt="" srcset="" /></span>
-  <span>July 22’ 2025</span>
-</div>
-        </div>
-      </div>
-    </div>
-
-   
-
-    
-  </div>
- <div className="row justify-content-center align-items-center pt-5">
-  <button type="button" className="btn btnbg fw-semibold">
-    View All Member
-  </button>
-</div>
+                <div className="row mx-auto align-items-stretch blacklight">
+                    <div className="col-12 col-sm-4 col-lg-4 blacklight ">
+                        <div className="border m-2 h-100 blackdark d-flex flex-column  p-2">
+                            <img src={eventimg1} alt="Benefit 1" className="img-fluid mb-3" />
+                            <div className="px-4 d-flex flex-column h-100">
+                                <h6 className="textcolor fw-semibold fs-4">Business Opportunity Matching</h6>
+                                <div className="d-flex justify-content-between fs-6">
+                                    <span className="yellowcolor">View More <img src={arrow} alt="" srcset="" /></span>
+                                    <span>July 22’ 2025</span>
+                                </div>
 
 
-</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-12 col-sm-4 col-lg-4 blacklight ">
+                        <div className="border blackdark m-2 h-100 d-flex flex-column p-2">
+                            <img src={eventimg2} alt="Benefit 2" className="img-fluid mb-3" />
+                            <div className="px-4">
+                                <h6 className="textcolor fw-semibold fs-4">Cooperation Risk Protection</h6>
+                                <div className="d-flex justify-content-between fs-6">
+                                    <span className="yellowcolor">View More <img src={arrow} alt="" srcset="" /></span>
+                                    <span>July 22’ 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-12 col-sm-4 col-lg-4 blacklight ">
+                        <div className="border blackdark m-2 h-100 d-flex flex-column">
+                            <img src={eventimg3} alt="Benefit 3" className="img-fluid mb-3 p-2" />
+                            <div className="px-4">
+                                <h6 className="textcolor fw-semibold fs-4">Marketing and Promotion Services</h6>
+                                <div className="d-flex justify-content-between fs-6">
+                                    <span className="yellowcolor">View More <img src={arrow} alt="" srcset="" /></span>
+                                    <span>July 22’ 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div className="row justify-content-center align-items-center pt-5">
+                    <button type="button" className="btn btnbg fw-semibold">
+                        View All Upcoming Events
+                    </button>
+                </div>
+
+
+            </div>
+
+
+            <div className="container-fluid blackdark py-5 px-2">
+                <div className='pb-5'>
+                    <h3 className='text-center fw-bold fs-2'>Founders</h3>
+                </div>
+                <div className="row mx-auto align-items-stretch blackdark">
+                    <div className="col-12 col-sm-4 col-lg-6 blackdark ">
+                        <div className="border m-2 h-100 blacklight d-flex flex-column  p-2">
+                            <img src={eventimg1} alt="Benefit 1" className="img-fluid mb-3" />
+                            <div className="px-4 d-flex flex-column h-100">
+                                <p className="textcolor fw-semibold fs-4">Cheryl Tan</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-12 col-sm-4 col-lg-6 blackdark ">
+                        <div className="border blacklight m-2 h-100 d-flex flex-column p-2">
+                            <img src={eventimg2} alt="Benefit 2" className="img-fluid mb-3" />
+                            <div className="px-4">
+                                <p className="textcolor fw-semibold fs-4">Dawn Tan</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div className="row justify-content-center align-items-center pt-5">
+                    <button type="button" className="btn btnbg fw-semibold">
+                        View All Member
+                    </button>
+                </div>
+
+
+            </div>
+
+
+<Slider/>
 
 
 
