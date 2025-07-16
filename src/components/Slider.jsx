@@ -46,15 +46,23 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="container blackdark py-5 px-2">
-      <div className="pb-5">
-        <h3 className="text-center fw-bold fs-2">Our Coverage</h3>
+    <div className="container blackdark py-5 px-2 pt-2">
+      <div className="pb-1">
+          <div className="text-center">
+            <h2 className="text-center fw-bold fs-2">Our Coverage</h2>
+           <div className="underline mb-4 mx-auto">
+                    <span className="move delay-0" />
+                    <span className="move delay-1" />
+                  </div>
+         </div>
       </div>
       <div className="logos overflow-hidden">
         <div className="logo_items" ref={logoContainerRef}>
           {duplicatedImages.map((src, idx) => (
-            <div className="logo_slide border p-3" key={idx}>
+            <div className='gradient_rounded'>
+              <div className="logo_slide" key={idx}>
               <img src={src} alt={`logo-${idx}`} />
+            </div>
             </div>
           ))}
         </div>
